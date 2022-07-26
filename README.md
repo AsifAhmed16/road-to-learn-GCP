@@ -116,5 +116,51 @@ My process to learn GCP from zero experience.
 - Subnet masking (like switch) is integrated
 
 
+## VPC (Virtual Private Network)
+- VPC may contain multiple VM.
+- VM inside VPC are connected through Subnet to the ultimate gateway or router.
+- VM are 2 types :
+    - Infrastructure Vertualization
+    - Network Vertualization
+- VPC networks allows to set a gateway, which will allow us to throw our packet.
+- Next thing is to launch a VM. To launch, we need to go to - Compute Engine >> VM Instance
+- VM has private(VM NIC Card has private IP) and public(Gateway has public IP) IP
+- Internal IP range will realy on defined Gateway IP Range.
+- Ingrace/Egrace
+- IAP (Identity Aware Proxy)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
