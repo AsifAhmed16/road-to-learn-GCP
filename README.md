@@ -130,7 +130,12 @@ My process to learn GCP from zero experience.
 - IAP (Identity Aware Proxy)
 
 
-
+## IP Table : 
+ - Docker Bridge
+ - IP Mandeling happens
+ - Route Table determine which interface to unvail to the packet destination port.
+ - When returning a response, IP Table bind response with the server private IP.
+ - NIC Card >> IP Table >> Route Table >> Docker Bridge >> Switch/Subnet >> Destined Container
 
 
 
